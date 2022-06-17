@@ -1,0 +1,40 @@
+body{
+	background-color: black;
+	padding-top: 150px;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 56% 43.5%;
+	column-gap: 6px;
+}
+.a{
+	background-color: orange;
+}
+.b{
+	background-color: yellow;
+}
+.a, .b{
+	height: 200px;
+}
+.grid2{
+	display: grid;
+	grid-template-columns:47% 52.5%;
+	column-gap: 6px;
+	padding-top: 6px;
+}
+.c{
+	background-color: green;
+}
+.d{
+	display: grid;
+	grid-row-gap: 6px;
+}
+.c, .d{
+	height: 200px;
+}
+.e, .f{
+	background-color: blue;
+}
+.e{
+padding-bottom: 3px;
+}
