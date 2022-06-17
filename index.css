@@ -1,0 +1,42 @@
+.flex{
+	display: flex;
+	flex-wrap: nowrap;
+	padding-top: 150px;
+}
+img{
+	padding-top: 40px;
+}
+.one{
+	background-color: #cc6600;
+}
+.two{
+	background-color: #336666;
+}
+.three{
+	background-color: #003333;
+}
+.one, .two, .three{
+	color: white;
+	font-family: calibri;
+	padding-left: 30px;
+	padding-right: 40px;
+}
+.one button{
+	color:#cc6600;
+}
+.two button{
+	color:#336666;
+}
+.three button{
+	color:#003333;
+}
+button{
+	margin-top: 50px;
+	background-color: white;
+	border-radius: 20px;
+	border:white solid;
+	height: 30px;
+	font-weight: bolder;
+	font-family: calibri;
+	width: 120px;
+}
